@@ -11,5 +11,3 @@ module.exports = function getSeason(date) {
     if (month > 7 && month <= 10) return 'fall'
   }
 }
-
-// if (isNaN(date.valueOf()) && date instanceof Date) throw new Error() не проходит 'throws an error on invalid argument'
